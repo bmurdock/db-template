@@ -1,0 +1,24 @@
+{
+  "name": "db-template",
+  "version": "1.0.0",
+  "description": "Template for express server that uses mongodb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmurdock/db-template.git"
+  },
+  "author": "Brian Murdock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmurdock/db-template/issues"
+  },
+  "homepage": "https://github.com/bmurdock/db-template#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7"
+  }
+}
